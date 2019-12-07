@@ -15,13 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="project_serial.cpp">
+    <ClCompile Include="cpu_backtracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sudoku_mpi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sudoku_pthread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="problem.txt">
+    <None Include="gpu_backtracking.cu">
       <Filter>Source Files</Filter>
-    </Text>
+    </None>
+    <None Include="job2.sl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Readme.md">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
