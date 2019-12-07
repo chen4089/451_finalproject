@@ -1,4 +1,7 @@
 # Sudoku-solving-parallel-computing
+
+Inspired by works from https://github.com/vduan/parallel-sudoku-solver
+
 ## Simple Backtracking
 Both cpu_backtracking.cpp and gpu_backtracking.cu was tested on USC HPC Server. 
 
